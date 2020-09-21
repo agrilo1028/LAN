@@ -1,0 +1,138 @@
+/* #1C343D - background blue; #D0A955 - LAN yellow */
+body {
+    margin: 0;
+    background: #1C343D;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+    font-weight: 300;
+    font-family: "Gill Sans";
+}
+
+.login {
+    margin-left: 115px;
+    font-size: 22px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+#username, #password {
+    margin-bottom: 40px;
+}
+
+.whitebox {
+    height: 56px;
+    width: 274px;
+    margin-top: 10px;
+    border: solid 1px #1C343D;
+    border-radius: 5px;
+}
+
+.button {
+    background: #1C343D;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 26px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+.button- {
+    padding-left: 28%;
+}
+
+.imagemainpage {
+    width: 110px;
+    margin: 80px 0 10px;
+    padding-left: 47%;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagemainpage {
+        padding-left: 40%;
+    }
+}
+
+/* end of OC sign-up page!! */
+
+#hotel-list {
+    background: white;
+    color: black;
+    text-align: left;
+    width: 500px;
+    font-size:26px;
+    letter-spacing: 2px;
+}
+
+#logo {
+    position: fixed;
+    z-index: 50;
+    width: 440px;
+    margin-left: 35%;
+    padding-left: 10px;
+    background: #1C343D;
+}
+
+#hotel-list {
+    position: relative;
+    top: 120px;
+    width: 414px;
+    margin: 0 auto;
+}
+
+.OC {
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.OClogotoppage {
+    width: 80px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+
+        margin-top:0;
+        padding-bottom: 10px;
+        padding-right: 35px;
+        margin-left: 7%;
+
+    }
+
+    #hotel-list {
+        position: relative;
+        top: 130px;
+    }
+
+}
+
+th {
+    background: lightgray;
+    padding: 5px;
+    font-family: Lucinda Sans;
+    opacity: .5;
+    font-size: 17px;
+}
+
+#hotel-list td {
+    border-bottom: 0.09px solid lightgray;
+}
+
+.align {
+    padding-left: 20px;
+}
+
+.lan {
+    padding-left: 20px;
+}
+
+.hotel-box:hover {
+    text-decoration: underline;
+}
